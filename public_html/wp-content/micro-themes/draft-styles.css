@@ -1,0 +1,64 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Main Menu ================= */
+
+/** Main Menu >> meu cardapio **/
+#menu-item-35 > .menu-link {
+	background-image: none !important;
+}
+
+
+/*= Content =================== */
+
+/** Content >> Div:(1) **/
+div:nth-of-type(1) {
+	
+}
+
+/** Content >> .uagb-rm__image-position-left:nth-of-type(1) .uagb-rm__title **/
+.uagb-rm__image-position-left:nth-of-type(1) .uagb-rm__title {
+	
+}
+
+/** Content >> .preco cardapiohome post-12 .uagb-rm__price **/
+.preco cardapiohome post-12 .uagb-rm__price {
+	width: 100px !important;
+	min-width: 50px !important;
+}
+
+/** Content >> Cardapiohome uagb rm title wrap **/
+.cardapiohome .uagb-rm__title-wrap {
+	width: 270px !important;
+}
+
+/** Content >> .preco cardapiohome .uagb rm price **/
+#post-12 .uagb-rm__price {
+	width: 80px !important;
+	min-width: 50px !important;
+}
+
+/** Content >> .post-12 .uagb-rm__title-wrap **/
+.post-12 .uagb-rm__title-wrap {
+	width: 270px !important;
+	min-width: 50px !important;
+}
+
+/** Content >> footer > div > div:nth-of-type(1) **/
+footer > div > div:nth-of-type(1) {
+	
+}
+
+
+/*= Footer ==================== */
+
+/** Footer >> barra do rodape **/
+#colophon .ast-footer-overlay {
+	min-width: 10px !important;
+	height: 10px !important;
+	min-height: 10px !important;
+	max-height: 10px !important;
+	padding-right: 10px !important;
+	padding-left: 10px !important;
+}
+

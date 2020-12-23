@@ -1,0 +1,26 @@
+version: "3.3"
+
+services:
+  isabel_wp:
+    build: .
+    ports:
+      - 80:80
+      - 443:443
+    environment:
+      VIRTUAL_HOST: localhost
+      WORDPRESS_DB_HOST: mariadb_10_5_5:3306
+      WORDPRESS_DB_NAME: isabel
+      WORDPRESS_DB_USER: isabel
+      WORDPRESS_DB_PASSWORD: isabel
+    volumes:
+      - ./public_html:/var/www/html
+      - ./config.ini:/usr/local/etc/php/conf.d/config.ini
+    container_name: isabel_wp  
+
+volumes:
+  isabel_wp:
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
